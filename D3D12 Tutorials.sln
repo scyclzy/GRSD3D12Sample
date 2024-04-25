@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29215.179
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01-D3D12Triangle", "1-D3D12Triangle\1-D3D12Triangle.vcxproj", "{62AD9748-E971-49EF-A658-2C21D65773BC}"
 EndProject
@@ -56,6 +56,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "26-Normal-Map-And-Tangent-Space", "26-Normal-Map-And-Tangent-Space\26-Normal-Map-And-Tangent-Space.vcxproj", "{469021D1-DAEC-4EFB-8A1E-A148A1E4EF20}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "27-IBL-With-Material-Texture", "27-IBL-With-Material-Texture\27-IBL-With-Material-Texture.vcxproj", "{5CB8B4F5-1BF1-475D-B0A0-83BE20E30061}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "00-DXAdapterInfo", "00-DXAdapterInfo\00-DXAdapterInfo.vcxproj", "{129C3A3D-5C06-4008-8E94-AC1ACF9BEDDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -391,6 +393,18 @@ Global
 		{5CB8B4F5-1BF1-475D-B0A0-83BE20E30061}.Release|x64.Build.0 = Release|x64
 		{5CB8B4F5-1BF1-475D-B0A0-83BE20E30061}.Release|x86.ActiveCfg = Release|Win32
 		{5CB8B4F5-1BF1-475D-B0A0-83BE20E30061}.Release|x86.Build.0 = Release|Win32
+		{129C3A3D-5C06-4008-8E94-AC1ACF9BEDDE}.Debug|x64.ActiveCfg = Debug|x64
+		{129C3A3D-5C06-4008-8E94-AC1ACF9BEDDE}.Debug|x64.Build.0 = Debug|x64
+		{129C3A3D-5C06-4008-8E94-AC1ACF9BEDDE}.Debug|x86.ActiveCfg = Debug|Win32
+		{129C3A3D-5C06-4008-8E94-AC1ACF9BEDDE}.Debug|x86.Build.0 = Debug|Win32
+		{129C3A3D-5C06-4008-8E94-AC1ACF9BEDDE}.Profile|x64.ActiveCfg = Debug|x64
+		{129C3A3D-5C06-4008-8E94-AC1ACF9BEDDE}.Profile|x64.Build.0 = Debug|x64
+		{129C3A3D-5C06-4008-8E94-AC1ACF9BEDDE}.Profile|x86.ActiveCfg = Debug|Win32
+		{129C3A3D-5C06-4008-8E94-AC1ACF9BEDDE}.Profile|x86.Build.0 = Debug|Win32
+		{129C3A3D-5C06-4008-8E94-AC1ACF9BEDDE}.Release|x64.ActiveCfg = Release|x64
+		{129C3A3D-5C06-4008-8E94-AC1ACF9BEDDE}.Release|x64.Build.0 = Release|x64
+		{129C3A3D-5C06-4008-8E94-AC1ACF9BEDDE}.Release|x86.ActiveCfg = Release|Win32
+		{129C3A3D-5C06-4008-8E94-AC1ACF9BEDDE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
