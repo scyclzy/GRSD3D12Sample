@@ -39,6 +39,15 @@ int main(int argc, char* argv[]) {
 			continue;
 		}
 		printf("Device NodeCount: %d\n", d3d12Dev->GetNodeCount());
+		ComPtr<IDXGIOutput> dxgiOutput;
+		for (UINT j = 0; dxgiAdapter->EnumOutputs(j, &dxgiOutput) != DXGI_ERROR_NOT_FOUND; j++) {
+			DXGI_OUTPUT_DESC outputDesc = { 0 };
+			hr = dxgiOutput->GetDesc(&outputDesc);
+			if (S_OK != hr) {
+				continue;
+			}
+			wprintf(L" - Output %d: %s\n", j, outputDesc.DeviceName);
+		}
 	}
 
 	return 0;
